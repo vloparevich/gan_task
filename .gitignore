@@ -1,0 +1,10 @@
+.idea/
+gan_task.iml
+/target/
+.classpath
+.project
+.idea/
+test-output/
+ProjectLogsShots/
+logs/
+        src/

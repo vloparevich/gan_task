@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BasicAuth">
+
+    <listeners>
+        <listener class-name="com.gan.utils.Listeners"/>
+    </listeners>
+
+    <parameter name="title" value="Mr"/>
+    <parameter name="firstName" value="Vadim"/>
+    <parameter name="lastName" value="Loparevich"/>
+    <parameter name="inputName" value="dobYear"/>
+
+    <test name="RequiredFields">
+        <classes>
+            <class name="com.gan.tests.SignupTest"/>
+        </classes>
+    </test>
+</suite>

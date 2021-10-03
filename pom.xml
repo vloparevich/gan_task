@@ -29,10 +29,10 @@
             </plugin>
         </plugins>
     </build>
-    <description>NORWEGIAN MVN/TESTNG/POM</description>
+    <description>GAN MVN/TESTNG/POM</description>
     <profiles>
         <profile>
-            <id>Ports</id>
+            <id>SanityBasicAuth</id>
             <build>
                 <plugins>
                     <plugin>
@@ -42,7 +42,7 @@
                         <configuration>
                             <!--should reflect generated name.xml file of the project -->
                             <suiteXmlFiles>
-                                <file>ExplorePortsTestSuite.xml</file>
+                                <file>suites/SignupSuite.xml</file>
                             </suiteXmlFiles>
                         </configuration>
                     </plugin>
@@ -73,11 +73,12 @@
             <artifactId>selenium-remote-driver</artifactId>
             <version>3.141.59</version>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/org.testng/testng -->
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
-            <version>6.11</version>
-            <scope>compile</scope>
+            <version>6.14.3</version>
+            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
