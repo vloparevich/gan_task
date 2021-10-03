@@ -1,4 +1,4 @@
-package com.gan.basepageplatform;
+package com.gan.pageobjects.basepageplatform;
 
 import org.apache.log4j.Logger;
 import org.openqa.selenium.*;

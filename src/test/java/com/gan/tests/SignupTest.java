@@ -1,8 +1,8 @@
 package com.gan.tests;
 
-import com.gan.auth.SignupPage;
-import com.gan.landing.LandingPage;
-import com.gan.testplatfrom.BTest;
+import com.gan.pageobjects.auth.SignupPage;
+import com.gan.pageobjects.landing.LandingPage;
+import com.gan.testplatform.BTest;
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.*;
 

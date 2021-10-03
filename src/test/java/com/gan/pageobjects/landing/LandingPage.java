@@ -1,7 +1,7 @@
-package com.gan.landing;
+package com.gan.pageobjects.landing;
 
-import com.gan.auth.SignupPage;
-import com.gan.basepageplatform.CommonImpl;
+import com.gan.pageobjects.auth.SignupPage;
+import com.gan.pageobjects.basepageplatform.CommonImpl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 

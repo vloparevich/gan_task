@@ -1,4 +1,4 @@
-package com.gan.testplatfrom;
+package com.gan.testplatform;
 
 import org.apache.log4j.Level;
 import org.apache.log4j.Logger;
@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-import static com.gan.basepageplatform.CommonImpl.getStandardViewPort;
+import static com.gan.pageobjects.basepageplatform.CommonImpl.getStandardViewPort;
 
 /**
  * @author vloparevich

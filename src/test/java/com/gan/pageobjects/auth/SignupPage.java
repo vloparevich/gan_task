@@ -1,6 +1,6 @@
-package com.gan.auth;
+package com.gan.pageobjects.auth;
 
-import com.gan.basepageplatform.CommonImpl;
+import com.gan.pageobjects.basepageplatform.CommonImpl;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;

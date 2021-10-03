@@ -1,4 +1,4 @@
-package com.gan.testplatfrom;
+package com.gan.testplatform;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;

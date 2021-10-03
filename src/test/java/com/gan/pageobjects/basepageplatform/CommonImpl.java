@@ -1,4 +1,4 @@
-package com.gan.basepageplatform;
+package com.gan.pageobjects.basepageplatform;
 
 import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;

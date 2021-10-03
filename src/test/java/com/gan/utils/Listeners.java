@@ -3,7 +3,7 @@ import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 import static com.gan.utils.Utility.getScreenshot;
-import static com.gan.testplatfrom.BTest.logger;
+import static com.gan.testplatform.BTest.logger;
 import java.io.IOException;
 
 /**
